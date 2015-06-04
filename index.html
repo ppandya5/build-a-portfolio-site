@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- next line makes page adjustable based on size of viewing device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puja Pandya</title>
+    <!-- add bootstrap style sheet.. just min is fine -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>    
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="js/respond.js"></script>
+    
+</head>
+
+<body>
+
+	<div class="container" id="top">
+	<nav class="navbar navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+            	<span class = "sr-only"> Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+             </button>
+				<a class="navbar-brand bolding" href="#top"> PUJA PANDYA </a>
+			</div>
+		<div class="collapse navbar-collapse" id="collapse">
+			<div class="nav navbar-nav navbar-right">
+				<li> <a href="#projects">PROJECTS</a></li>
+				<li> <a href="#about">ABOUT</a></li>
+
+			</div>	
+		</div>
+	</div>
+	</nav>
+		<img src="img/main.jpg" alt="" class="img-responsive">
+	</div> 
+	<!-- end jumbotron and nav -->
+	
+	<div class="container classwork" id="projects">
+				<h2> PROJECTS </h2>
+				<br>
+		<div class="row">
+			<div class="col-sm-4 projectInfo">
+				<a href="TapTracker.html"><img src="img/TT.jpg" alt="Tap Tracker" class="center-block img-responsive">
+				<p>Tap Tracker</p>
+				</a>
+			</div>
+			<div class="col-sm-4 projectInfo">
+				<a href="FFweather.html">
+				<img src="img/FFW.jpg" alt="Fantasy Football Weather" class="center-block img-responsive">
+				<p>Fantasy Football Weather</p>
+				</a>
+			</div>
+			<div class="col-sm-4 projectInfo">
+				<a href="#PlanMyNightInfo">
+				<img src="img/PMN.jpg" alt="Plan My Night" class="center-block img-responsive">
+				<p>Plan My Night</p>
+				</a>
+			</div>
+		</div>
+		<!-- ViewMore button -->
+			<button class="btn btn-primary center-block" id= "ViewMoreButton" type="button" data-toggle="collapse" data-target="#extraProjects" aria-expanded="false" aria-controls="extraProjects">
+  				View More
+			</button>
+			<div class="collapse more extra" id="extraProjects">
+			  <div class="row">
+			    <div class="col-sm-4 projectInfo">
+				<a href="#caraInfo">
+				<img src="img/CARA.JPG" alt="CARA" class="center-block img-responsive">
+				<p>Cultural Asset Repossession Agent</p>
+				</a>
+			</div>
+			<div class="col-sm-4 projectInfo">
+				<a href="#HTMLCSSexamples">
+				<img src="img/fewd.jpg" alt="HTML CSS" class="center-block img-responsive">
+				<p>HTML and CSS Examples</p>
+				</a>
+			</div>
+			  </div>
+			</div>
+	</div>
+	<!-- end projects container -->
+
+	<!-- Start about container -->
+
+	<div class="container aboutMe" id="about">
+	
+		<div class="row">
+		<div class="col-sm-4">
+			<img src="img/profile.png" class="img-responsive" alt="Profile">
+			<br>
+			<a href="https://www.linkedin.com/in/pujapandya1">Connect with me on LinkedIn!</a>
+			<p>puja.pandya5@gmail.com</p>
+		</div>
+
+		<div class="col-sm-8">
+			<h3>Clean. Simple. Effective.</h3>
+			<p>That's my design mantra.  As an Experience Designer I strive to create a clean aesthetic, simple navigation and effective interactions.</p>
+
+			<p>My background in psychological research helps me connect the numbers on the screen with the people they represent - while my knowledge of HCI helps me create a digital experience that is simple, yet effective.  This combination of psychology and HCI has molded me into an empathetic designer who values each step in the design process.</p>  
+
+			<p>When I'm not working on projects you can find me reading, winning in fantasy football, or singing in my car.</p>
+
+			<p>I am looking to start a UX Designer position in Summer 2015.  Feel free to contact me with any questions or comments!</p>
+		</div>
+		</div>
+	</div>
+
+	<div class="container footer">
+		<div class="row copyright">
+			<span class="glyphicon glyphicon-copyright-mark"> PujaPandya2015</span> 
+		</div>
+	</div>
+	<!-- end footer -->
+
+<!-- end body container -->
+<!-- javascript -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<!-- always put this after jquery b/c you need jquery to work first so the bootstrap version can load based on jquery library -->
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>
